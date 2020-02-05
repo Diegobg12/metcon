@@ -1,0 +1,73 @@
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+/* Buttons */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+
+		background-color: $color__background-body;
+		border: 2px solid $color__text-alt;
+		border-radius: 3px;
+		color: $color__text-alt;
+		font-size: 1rem;
+		font-weight: 700;
+		line-height: 1;
+		padding: .75rem 2.25rem;
+
+	&:hover {
+		border-color: $color__link-hover;
+		color: $color__link-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__link-hover;
+		color: $color__link-hover;
+	}
+}
+
+/* Fields */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: $color__text-main;
+	border: 1px solid $color__text-alt;
+	border-radius: 3px;
+	background-color: transparent;
+
+	&:focus {
+		color: $color__text-main;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 3px;
+}
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+	height: 100px;
+	margin-top: 2%;
+	
+}
+
+
+.wpcf7-form{
+	margin-top: 5%;
+	input {
+		margin-top: 2%;
+	}
+}

@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+/* Links */
+
+a {
+	color: $color__link;
+	text-decoration: none;
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+/* Menus */
+
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+
+	ul {
+
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: $base__space-unit;
+			left: -999rem;
+			z-index: 99999;
+
+			ul {
+				left: -999rem;
+				top: 0;
+			}
+
+			li {
+				
+				&:hover > ul,
+				&.focus > ul {
+					left: 100%;
+				}
+			}
+
+			a {
+				width: 200px;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+	li {
+		float: left;
+		position: relative;
+
+		&:hover > a,
+		&.focus > a {
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+	}
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 $base__space-unit;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+
+.request{
+	background-color: $color__link-hover;
+	color: white;
+}
+
+.request:visited{
+	color: white;
+}
+
+
+.search{
+	border: none;
+	padding: 2px;
+}
+
+
+.type-list{
+    display: flex;
+    display: -ms-flexbox;
+	flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	li{
+		margin-bottom: .5rem;
+		margin-right: 1.125rem;
+
+	}
+}
