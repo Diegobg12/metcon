@@ -18,6 +18,9 @@ function qod_setup() {
 	// Let WordPress manage the document title.
 	add_theme_support( 'title-tag' );
 
+	// Enable support for Post Thumbnails on posts and pages.
+	add_theme_support( 'post-thumbnails' );
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html( 'Primary Menu' ),
@@ -25,6 +28,15 @@ function qod_setup() {
 
 	// Switch search form, comment form, and comments to output valid HTML5.
 	add_theme_support( 'html5', array( 'search-form' ) );
+
+		// Switch search form, comment form, and comments to output valid HTML5.
+		add_theme_support( 'html5', array(
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+		) );
 
 }
 endif; // qod_setup
