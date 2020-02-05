@@ -22,7 +22,7 @@ themes/*
 !themes/metcon/
 
 # Ignore packages #
-themes/inhabitent/node_modules/
+themes/metcon/node_modules/
 
 # Ignore OS files #
 .DS_Store
