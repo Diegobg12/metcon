@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255.361" height="252.306" viewBox="0 0 255.361 252.306">
+  <g id="Group_1" data-name="Group 1" transform="translate(-428.639 -174.694)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(447 190)" fill="rgba(188,149,87,0)" stroke="#bc9557" stroke-width="20">
+      <circle cx="118.5" cy="118.5" r="118.5" stroke="none"/>
+      <circle cx="118.5" cy="118.5" r="108.5" fill="none"/>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="matrix(-0.017, -1, 1, -0.017, 565.648, 377.092)" fill="#fff">
+      <path d="M 129.8359527587891 68.5 L 1.164043188095093 68.5 L 65.5 0.7262440323829651 L 129.8359527587891 68.5 Z" stroke="none"/>
+      <path d="M 65.5 1.452484130859375 L 2.328079223632812 68 L 128.6719207763672 68 L 65.5 1.452484130859375 M 65.5 0 L 131 69 L 0 69 L 65.5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(-0.017, -1, 1, -0.017, 565.648, 377.092)" fill="#bc9557">
+      <path d="M65.5,0,131,69H0Z" stroke="none"/>
+      <path d="M 65.5 1.452484130859375 L 2.328079223632812 68 L 128.6719207763672 68 L 65.5 1.452484130859375 M 65.5 0 L 131 69 L 0 69 L 65.5 0 Z" stroke="none" fill="rgba(112,112,112,0)"/>
+    </g>
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(428.639 306.923) rotate(-45)" fill="#bc9557">
+      <path d="M93.5,0,187,97H0Z" stroke="none"/>
+      <path d="M 93.5 1.440925598144531 L 2.352859497070312 96 L 184.6471405029297 96 L 93.5 1.440925598144531 M 93.5 0 L 187 97 L 0 97 L 93.5 0 Z" stroke="none" fill="rgba(188,149,87,0.03)"/>
+    </g>
+  </g>
+</svg>

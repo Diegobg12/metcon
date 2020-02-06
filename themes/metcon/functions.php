@@ -7,11 +7,11 @@
  * @package QOD_Starter_Theme
  */
 
-if ( ! function_exists( 'qod_setup' ) ) :
+if ( ! function_exists( 'metcon_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  */
-function qod_setup() {
+function metcon_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
@@ -39,8 +39,8 @@ function qod_setup() {
 		) );
 
 }
-endif; // qod_setup
-add_action( 'after_setup_theme', 'qod_setup' );
+endif; // metcon_setup
+add_action( 'after_setup_theme', 'metcon_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -63,6 +63,42 @@ function qod_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 	return $stylesheet_uri;
 }
 add_filter( 'stylesheet_uri', 'qod_minified_css', 10, 2 );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function metcon_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html( 'Sidebar' ),
+		'id'            => 'sidebar-1',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'metcon_widgets_init' );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function contact_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html( 'Sidebar2' ),
+		'id'            => 'sidebar-2',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'contact_widgets_init' );
 
 /**
  * Enqueue scripts and styles.

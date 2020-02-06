@@ -19,17 +19,32 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<div id="page" class="hfeed site container">
+		<div id="page" class="">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
-					<div class ="logo">
-						<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<a href="http://localhost:8888/Project5" rel="home">
-							<img src= "<?php echo get_template_directory_uri();?>../../quotesondev/assets/qod-logo.svg" alt="">
+
+					<div>
+							<a class="hide" href="">
+								<img src="<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/burguer-menu.svg" alt="">
+							</a>
+						
+						<a href="metcon/">
+						 <img src= "<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/logo-gold.svg" alt="">
 						</a>
 					</div>
+					
+					<div id="secondary" class="" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-1' ); ?>
+					</div><!-- #secondary -->
+					
+					<div class="menu-main-navigation-container">
+						
+						<?php wp_nav_menu( array( 'container'=> 'ul','theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class'=> 'header-navigation' ) ); ?>
+					</div>
+				</div>
+
 
 				</div><!-- .site-branding -->
 			</header><!-- #masthead -->
@@ -37,6 +52,3 @@
 			
 
 			<div id="content" class="site-content ">
-			<i class="fa fa-quote-left hide" aria-hidden="true"></i>
-			<i class="fa fa-quote-right hide right" aria-hidden="true"></i>
-
