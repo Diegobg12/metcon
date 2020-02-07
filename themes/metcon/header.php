@@ -24,23 +24,23 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
-
-					<div>
-							<a class="hide" href="">
-								<img src="<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/burguer-menu.svg" alt="">
-							</a>
-						
-						<a href="metcon/">
-						 <img src= "<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/logo-gold.svg" alt="">
-						</a>
-					</div>
 					
-					<div id="secondary" class="" role="complementary">
+				<div class = "logo">
+				
+					<button id= "nav-bar" class="hide" href=""><img class="nav-butom" src="<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/burguer-menu.svg" alt=""></button>
+					<a href="">
+						<img  src= "<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/logo-gold.svg" alt="">
+						</a>
+				</div>
+
+
+					
+					<div id="secondary" class="social-container" role="complementary">
 						<?php dynamic_sidebar( 'sidebar-1' ); ?>
 					</div><!-- #secondary -->
 					
 					<div class="menu-main-navigation-container">
-						
+			
 						<?php wp_nav_menu( array( 'container'=> 'ul','theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class'=> 'header-navigation' ) ); ?>
 					</div>
 				</div>

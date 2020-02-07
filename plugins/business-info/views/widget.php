@@ -33,11 +33,11 @@
 
 <li>
     <?php if (strlen(trim($facebook))>0): ?>
-    <a href=" www.facebook.com/<?php echo $facebook; ?>">
+    <a href="www.facebook.com/<?php echo $facebook; ?>">
     <i class="fa fa-facebook"></i>
     </a>
     <?php endif; ?>
-</P>
+</li>
 
 
 </ul>
