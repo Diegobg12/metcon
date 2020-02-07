@@ -24,7 +24,7 @@
 
 <li>
     <?php if (strlen(trim($address))>0): ?>
-    <a href="www.instagram.com/<?php echo $address; ?>">
+    <a href="http://www.instagram.com/<?php echo $address; ?>">
         <i class="fa fa-instagram"></i>
     </a>
     <?php endif; ?>
@@ -33,7 +33,7 @@
 
 <li>
     <?php if (strlen(trim($facebook))>0): ?>
-    <a href="www.facebook.com/<?php echo $facebook; ?>">
+    <a href="http://www.facebook.com/<?php echo $facebook; ?>">
     <i class="fa fa-facebook"></i>
     </a>
     <?php endif; ?>

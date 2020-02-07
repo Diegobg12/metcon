@@ -10,7 +10,29 @@
 
 .hentry {
 	margin: 0 0 $base__space-unit;
+	width: 80%;
+	padding: 10%;
+	
+	p{
+		text-align: start;
+		font-size: 1.25rem;
+	}
+	
+	h1{
+		text-align: start;
+	}
+	
 }
+
+
+.page-back{
+	color: $color__background-body;
+}
+
+.met-page{
+	color: $color__text-screen;	
+}
+
 
 .updated:not(.published){
 	display: none;
@@ -65,14 +87,18 @@ body{
 	}
 }
 
-.entry-title{
-		margin-top: 3rem;
-	
-}
+
 .container {
 	text-align: center;
     margin: 0 auto;
     max-width: 1080px;
     padding: 0.5%;
     width: 100%;
+}
+
+#post-18{
+
+	.entry-header{
+		color: red;
+	}
 }

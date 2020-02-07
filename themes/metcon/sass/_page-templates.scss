@@ -16,8 +16,25 @@
 }
 
 .page-back{
-    height: 80vh;
+    height: 70vh;
+    
 }
+
+.items-left{
+  display: flex;
+  justify-content: flex-end
+}
+
+.nutricion{
+  padding: 10%;
+  width: 70%;
+  text-align: end;
+  p{
+    font-size: 1.5rem;
+  }
+}
+
+
 
 
 .hide{
@@ -27,7 +44,16 @@
     }
 }
 
-
+.font-page{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  img{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+  }
+}
 
 // ARCHIVE--------
 .archive-container{
@@ -38,6 +64,12 @@
 
 .archive-ma{
     margin-top: 10%;
+}
+
+
+.nutricion{
+  align-items: flex-end;
+
 }
 
 @media screen and (min-width: 620px){
@@ -86,6 +118,16 @@
     
           }
       }
+
+
+      .font-page{
+
+        img{
+
+          width: 60%;
+        }
+      }
+      
     
     
     
@@ -153,6 +195,22 @@
         width: 5%;
       }
 
+
+      .hentry {
+
+        width: 60%;
+        padding: 10%;
+        
+        p{
+          text-align: end;
+          font-size: 1.5rem;
+        }
+        
+        h1{
+          text-align: end;
+        }
+        
+      }
   
 
 }

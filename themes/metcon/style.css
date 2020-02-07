@@ -95,7 +95,7 @@ dfn {
   font-style: italic; }
 
 h1 {
-  margin: 0.67em 0; }
+  margin: 0; }
 
 mark {
   background: #ff0;
@@ -235,7 +235,7 @@ textarea {
   color: #5e5e5e;
   font-family: "Oswald", serif;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 2; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -297,7 +297,8 @@ html {
 
 body {
   background: #212121;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  color: red; }
 
 blockquote,
 q {
@@ -570,7 +571,20 @@ a {
   display: block; }
 
 .hentry {
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1.5rem;
+  width: 80%;
+  padding: 10%; }
+  .hentry p {
+    text-align: start;
+    font-size: 1.25rem; }
+  .hentry h1 {
+    text-align: start; }
+
+.page-back {
+  color: #212121; }
+
+.met-page {
+  color: #ffff; }
 
 .updated:not(.published) {
   display: none; }
@@ -610,15 +624,15 @@ body {
   font-weight: lighter;
   margin: 0%; }
 
-.entry-title {
-  margin-top: 3rem; }
-
 .container {
   text-align: center;
   margin: 0 auto;
   max-width: 1080px;
   padding: 0.5%;
   width: 100%; }
+
+#post-18 .entry-header {
+  color: red; }
 
 /*--------------------------------------------------------------
 # Media
@@ -641,7 +655,11 @@ footer {
   width: 100%;
   text-align: center; }
   footer p {
-    margin: 0%; }
+    margin: 0%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
   footer img {
     width: 2%; }
 
@@ -729,12 +747,41 @@ footer {
   font-size: 20px; }
 
 .page-back {
-  height: 80vh; }
+  height: 70vh; }
+
+.items-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.nutricion {
+  padding: 10%;
+  width: 70%;
+  text-align: end; }
+  .nutricion p {
+    font-size: 1.5rem; }
 
 .hide {
   display: inline; }
   .hide img {
     width: 20px; }
+
+.font-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+  .font-page img {
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%; }
 
 .archive-container {
   border-top: 1px solid #5e5e5e;
@@ -742,6 +789,11 @@ footer {
 
 .archive-ma {
   margin-top: 10%; }
+
+.nutricion {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
 
 @media screen and (min-width: 620px) {
   .social-container {
@@ -776,6 +828,8 @@ footer {
         padding-left: 0; }
       .header-navigation li:last-child {
         border-right: 0; }
+  .font-page img {
+    width: 60%; }
   .site-branding {
     width: 96%;
     padding: 0% 0%;
@@ -833,4 +887,12 @@ footer {
       .menu-main-navigation-container ul li:last-child {
         border-bottom: none; }
   .logo {
-    width: 5%; } }
+    width: 5%; }
+  .hentry {
+    width: 60%;
+    padding: 10%; }
+    .hentry p {
+      text-align: end;
+      font-size: 1.5rem; }
+    .hentry h1 {
+      text-align: end; } }
