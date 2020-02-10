@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="258.416" height="257.943" viewBox="0 0 258.416 257.943">
+  <g id="Group_1" data-name="Group 1" transform="translate(-314.584 -313.057)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="118.5" cy="118.5" r="118.5" transform="translate(336 334)" fill="rgba(7,7,7,0)"/>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(454.562 522.426) rotate(-90)" fill="#fff">
+      <path d="M 134.8052673339844 68.5 L 1.194765686988831 68.5 L 68.00000762939453 0.7123280167579651 L 134.8052673339844 68.5 Z" stroke="none"/>
+      <path d="M 68.00000762939453 1.424659729003906 L 2.389511108398438 68 L 133.6104888916016 68 L 68.00000762939453 1.424659729003906 M 68.00000762939453 0 L 136 69 L -1.52587890625e-05 69 L 68.00000762939453 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(314.584 448.114) rotate(-45)" fill="#fff">
+      <path d="M 189.8469085693359 101.5 L 1.153105497360229 101.5 L 95.50000762939453 0.7315810322761536 L 189.8469085693359 101.5 Z" stroke="none"/>
+      <path d="M 95.50000762939453 1.463134765625 L 2.306182861328125 101 L 188.6938323974609 101 L 95.50000762939453 1.463134765625 M 95.50000762939453 0 L 191 102 L 1.52587890625e-05 102 L 95.50000762939453 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="118.5" cy="118.5" r="118.5" transform="translate(336 334)" fill="none"/>
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(454.562 522.426) rotate(-90)" fill="none">
+      <path d="M68,0l68,69H0Z" stroke="none"/>
+      <path d="M 68.00000762939453 1.424659729003906 L 2.389511108398438 68 L 133.6104888916016 68 L 68.00000762939453 1.424659729003906 M 68.00000762939453 0 L 136 69 L -1.52587890625e-05 69 L 68.00000762939453 0 Z" stroke="none" fill="#fff"/>
+    </g>
+  </g>
+</svg>

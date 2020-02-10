@@ -16,8 +16,25 @@
 }
 
 .page-back{
-    height: 70vh;
+    height: 100vh;
     
+}
+
+.contact{
+  padding: 15% 10%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+ .map{
+  width:50%;
+  height:auto; 
+  border:0;
+ }
+
 }
 
 .items-left{
@@ -26,12 +43,17 @@
 }
 
 .nutricion{
-  padding: 10%;
-  width: 70%;
+  width: 60%;
+  padding: 17% 10%;
   text-align: end;
-  p{
-    font-size: 1.5rem;
-  }
+  
+
+}
+
+
+.filosofia{
+
+  background-position-x: 90%;
 }
 
 
@@ -49,9 +71,8 @@
   justify-content: center;
   text-align: center;
   img{
-    position: relative;
-    object-fit: cover;
-    width: 100%;
+    width: 70%;
+    height: auto;
   }
 }
 
@@ -70,6 +91,12 @@
 .nutricion{
   align-items: flex-end;
 
+}
+
+.social-container{
+  .information{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 620px){
@@ -94,6 +121,11 @@
         }
     
       }
+
+
+      .fa{
+        font-size: 1.5rem;
+      }
       
       .header-navigation {
     
@@ -103,9 +135,9 @@
         padding: 0;
       
           li {
-              border-right: 1px solid $color__background-alt;
+              border-right: 1px solid $color__background-alt!important;
               line-height: 3;
-               padding: 0 0.5rem;
+               padding: 0 0.5rem!important;
           
           &:first-child {
             padding-left: 0;
@@ -124,7 +156,7 @@
 
         img{
 
-          width: 60%;
+          width: 30%;
         }
       }
       
@@ -155,7 +187,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 1rem ;
-  
+        font-size: 1.8rem;
         align-items: center;
         ul{
           margin: 0%;
@@ -181,7 +213,7 @@
           li{
             
             border-top: none;
-            padding: 2% 3%;
+            padding: 3%;
             
           }
           li:last-child{
@@ -198,16 +230,14 @@
 
       .hentry {
 
-        width: 60%;
-        padding: 10%;
         
         p{
-          text-align: end;
+          text-align: start;
           font-size: 1.5rem;
         }
         
         h1{
-          text-align: end;
+          text-align: start;
         }
         
       }
@@ -215,8 +245,25 @@
 
 }
 
-@media screen and (min-width: 1080px){
+@media screen and (min-width: 1060px){
+  .post-16{
+    margin: 0 0 $base__space-unit;
+    width: 60%;
+    padding: 17% 10%;
+  }
 
+  p{
+    font-size: 1.5rem;
+  }
+  
+  .post-21{
+    p{
+      text-align: end;
+    }
+    h1{
+      text-align: end;
+    }
+  }
 
 }
 

@@ -5,14 +5,19 @@
  * @package QOD_Starter_Theme
  */
 
-get_header(); ?>
+?>
+
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main met-page" role="main">
+
+	<?php 
+
+	get_header(); 
+	?>
 
 
-
-		<section class="page-back met-page" style =" background: url(<?php echo get_the_post_thumbnail_url()?>) no-repeat top ;background-size: cover,cover;" class= "about-hero">
+		<section class="page-back met-page" style =" background: url(<?php echo get_the_post_thumbnail_url()?>) no-repeat top ;background-size: cover,cover; background-position-x: 75%;" class= "about-hero">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 	

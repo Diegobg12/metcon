@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="386.943" viewBox="0 0 310 386.943">
+  <g id="Group_2" data-name="Group 2" transform="translate(-888 -366.057)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(924 387)" fill="rgba(7,7,7,0)" stroke="#000" stroke-width="20">
+      <circle cx="118.5" cy="118.5" r="118.5" stroke="none"/>
+      <circle cx="118.5" cy="118.5" r="108.5" fill="none"/>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(1042.562 575.426) rotate(-90)" fill="#070707">
+      <path d="M 134.8052673339844 68.5 L 1.194765686988831 68.5 L 68.00000762939453 0.7123280167579651 L 134.8052673339844 68.5 Z" stroke="none"/>
+      <path d="M 68.00000762939453 1.424659729003906 L 2.389511108398438 68 L 133.6104888916016 68 L 68.00000762939453 1.424659729003906 M 68.00000762939453 0 L 136 69 L -1.52587890625e-05 69 L 68.00000762939453 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(902.584 501.114) rotate(-45)" fill="#070707">
+      <path d="M95.5,0,191,102H0Z" stroke="none"/>
+      <path d="M 95.49999237060547 1.463134765625 L 2.306167602539062 101 L 188.69384765625 101 L 95.49999237060547 1.463134765625 M 95.49999237060547 0 L 191.0000152587891 102 L -1.52587890625e-05 102 L 95.49999237060547 0 Z" stroke="none" fill="rgba(112,112,112,0)"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(924 387)" fill="rgba(7,7,7,0)" stroke="#000" stroke-width="20">
+      <circle cx="118.5" cy="118.5" r="118.5" stroke="none"/>
+      <circle cx="118.5" cy="118.5" r="108.5" fill="none"/>
+    </g>
+    <path id="Polygon_3" data-name="Polygon 3" d="M68,0l68,69H0Z" transform="translate(1042.562 575.426) rotate(-90)" fill="#070707"/>
+    <text id="METCON" transform="translate(888 721)" font-size="96" font-family="Impact"><tspan x="0" y="0">METCON</tspan></text>
+    <text id="CROSSFIT" transform="translate(992 749)" font-size="20" font-family="LucidaGrande, Lucida Grande"><tspan x="0" y="0">CROSSFIT</tspan></text>
+  </g>
+</svg>

@@ -8,19 +8,37 @@
 	display: block;
 }
 
-.hentry {
-	margin: 0 0 $base__space-unit;
-	width: 80%;
-	padding: 10%;
+.post-16{
+
+	padding: 23% 5% 14% 53%;
+    width: 100%;
+    height: 100%;
+    p{
+		text-align: end;
+		font-size: 1rem;
+	}
 	
+	h1{
+		text-align: end;
+	}
+}
+
+.post-21{
+	margin: 0 0 1.5rem;
+    width: 60%;
+    padding: 17% 10%;
 	p{
 		text-align: start;
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	
 	h1{
 		text-align: start;
 	}
+}
+
+.hentry {
+
 	
 }
 
@@ -31,6 +49,15 @@
 
 .met-page{
 	color: $color__text-screen;	
+	a{
+		color: white;
+
+		i{
+			font-size: 1.6rem;
+		}
+
+	}
+	
 }
 
 
@@ -96,9 +123,3 @@ body{
     width: 100%;
 }
 
-#post-18{
-
-	.entry-header{
-		color: red;
-	}
-}

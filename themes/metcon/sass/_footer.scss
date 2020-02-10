@@ -2,11 +2,16 @@
 
 footer{
     width: 100%;
+    text-align: left;
+    position: static;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    align-items: center;
     text-align: center;
     p{
+        font-size: 12px;
         margin: 0%;
-        align-items: center;
-        text-align: center;
     }
     img{
         width: 2%;

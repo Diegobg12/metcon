@@ -5,9 +5,13 @@
  * @package QOD_Starter_Theme
  */
 
-get_header(); ?>
+ ?>
 
-	<div id="primary" class="content-area">
+
+	<div id="primary" class="content-area met-page">
+		<?php
+		get_header();
+		?>
 		<main id="main" class="site-main" role="main">
 	
 			<?php
@@ -29,7 +33,7 @@ get_header(); ?>
 
 
 			<?php while ( have_posts() ) : the_post(); ?>
-					<img  src= "<?php echo get_template_directory_uri();?>../../metcon/assets/images/2w.png" alt="">
+					<img  src= "<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/logo-all-white.svg" alt="">
 	
 	
 			<?php endwhile; // End of the loop. ?>
