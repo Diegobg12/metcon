@@ -1,3 +1,5 @@
+<div id="barba-wrapper">
+			<div class="barba-container">
 <?php
 /**
  * The template for displaying all pages.
@@ -8,28 +10,14 @@
  ?>
 
 
-	<div id="primary" class="content-area met-page">
+	<div id="primary" class="content-area met-page ">
 		<?php
 		get_header();
 		?>
 		<main id="main" class="site-main" role="main">
-	
-			<?php
-
-				$pages = array("18", "21", "18");
-				$page= get_the_ID();
-
-			?>
 
 
-			<?php
-				if(in_array($page, $pages)){
-	
-				}
-			?>
-
-
-		<section class="page-back font-page" style =" background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(<?php echo get_the_post_thumbnail_url()?>) no-repeat top ;background-size: cover,cover;" class= "about-hero">
+		<section class="page-back font-page " style =" background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(<?php echo get_the_post_thumbnail_url()?>) no-repeat top ;background-size: cover,cover;" class= "about-hero">
 
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -37,13 +25,20 @@
 	
 	
 			<?php endwhile; // End of the loop. ?>
-		
-		</section>
-
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
+			<a href="http://localhost:8888/metcon/filosofia/">
 	
-
-<?php get_footer(); ?>
+			<i class="fa fa-chevron-right">
+	
+			</i>
+			</a>
+		</section>
+				
+				
+				</main><!-- #main -->
+			</div><!-- #primary -->
+			
+			
+			
+ -->
+		</div>
+	</div>

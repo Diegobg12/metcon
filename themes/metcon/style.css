@@ -571,14 +571,14 @@ a {
 .sticky {
   display: block; }
 
-.post-16 {
+.post-16, .post-18 {
   padding: 23% 5% 14% 53%;
   width: 100%;
   height: 100%; }
-  .post-16 p {
+  .post-16 p, .post-18 p {
     text-align: end;
     font-size: 1rem; }
-  .post-16 h1 {
+  .post-16 h1, .post-18 h1 {
     text-align: end; }
 
 .post-21 {
@@ -729,7 +729,7 @@ footer {
         -ms-flex-align: center;
             align-items: center; }
   .social li {
-    padding: 0% 5%;
+    padding: 0% 5% !important;
     font-size: 1.6rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -738,7 +738,8 @@ footer {
 .menu-main-navigation-container {
   display: none;
   width: 100%;
-  padding: 15px 14px 18px 26px; }
+  padding: 15px 14px 18px 26px;
+  background: gray; }
   .menu-main-navigation-container ul {
     margin: 0%; }
     .menu-main-navigation-container ul li {
@@ -782,6 +783,8 @@ footer {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+  .contact .entry-title {
+    display: none; }
   .contact .map {
     width: 50%;
     height: auto;
@@ -802,6 +805,9 @@ footer {
 
 .filosofia {
   background-position-x: 90%; }
+
+.tab_selected a {
+  color: #BC9557; }
 
 .hide {
   display: inline; }
@@ -935,7 +941,9 @@ footer {
     text-align: start;
     font-size: 1.5rem; }
   .hentry h1 {
-    text-align: start; } }
+    text-align: start; }
+  .menu-main-navigation-container {
+    background: transparent; } }
 
 @media screen and (min-width: 1060px) {
   .post-16 {
@@ -948,3 +956,28 @@ footer {
     text-align: end; }
   .post-21 h1 {
     text-align: end; } }
+
+.pages {
+  position: absolute; }
+
+.slide-in {
+  -webkit-animation: slide-in 0.5s ease forwards;
+          animation: slide-in 0.5s ease forwards; }
+
+@-webkit-keyframes slide-in {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    visibility: visible; }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); } }
+
+@keyframes slide-in {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    visibility: visible; }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); } }

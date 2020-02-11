@@ -1,3 +1,7 @@
+
+<div id="barba-wrapper">
+			<div class="barba-container">
+
 <?php
 /**
  * The template for displaying all pages.
@@ -11,7 +15,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 	
 
-		<section class="page-back filosofia" style =" background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(<?php echo get_the_post_thumbnail_url()?>) no-repeat top ;background-size: cover,cover; background-position-x: 90%;" class= "about-hero">
+		<section class="page-back filosofia " style =" background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(<?php echo get_the_post_thumbnail_url()?>) no-repeat top ;background-size: cover,cover; background-position-x: 90%;" class= "about-hero">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 	
@@ -28,3 +32,6 @@ get_header(); ?>
 	
 
 <?php get_footer(); ?>
+
+</div>
+</div>

@@ -15,22 +15,18 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-			<section class="nutricion">
-				<h1>
-					<?php the_title(); ?>
-				</h1>
+	
 
-				<p> 
-					<?php echo get_the_content(); ?>
-				</p>
-			</section>
+				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+		
 	
 			<?php endwhile; // End of the loop. ?>
 		
 		</section>
 
 		</main><!-- #main -->
-
+		<?php get_footer(); ?>
 	</div><!-- #primary -->
 
 
