@@ -1,6 +1,4 @@
 
-<div id="barba-wrapper">
-			<div class="barba-container">
 
 <?php
 /**
@@ -33,5 +31,3 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 
-</div>
-</div>

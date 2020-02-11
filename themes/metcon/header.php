@@ -28,7 +28,7 @@
 				<div class = "logo">
 				
 					<button id= "nav-bar" class="hide" href=""><img class="nav-butom" src="<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/burguer-menu.svg" alt=""></button>
-					<a href="">
+					<a href="/metcon">
 						<img  src= "<?php echo get_template_directory_uri();?>../../metcon/assets/images/logo/logo-gold.svg" alt="">
 						</a>
 				</div>

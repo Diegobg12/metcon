@@ -1,5 +1,4 @@
-<div id="barba-wrapper">
-			<div class="barba-container">
+
 <?php
 /**
  * The template for displaying all pages.
@@ -38,7 +37,5 @@
 			</div><!-- #primary -->
 			
 			
+<?php get_footer(); ?>
 			
- -->
-		</div>
-	</div>
