@@ -2,7 +2,7 @@
 Website powered by wordpress for Metcon Club Gym.
 
 ### First Look
-![alt text](./themes/metcon/assets/home.png)
+![First look](./themes/metcon/assets/home.jpg)
 
 ## Description 
 
