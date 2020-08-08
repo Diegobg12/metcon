@@ -691,6 +691,10 @@ footer {
   .header-navigation li:last-child {
     border-right: 0; }
 
+.main-button {
+  background-color: transparent !important;
+  border-color: transparent !important; }
+
 .site-branding {
   display: -webkit-box;
   display: -ms-flexbox;

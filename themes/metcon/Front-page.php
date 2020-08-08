@@ -24,12 +24,6 @@
 	
 	
 			<?php endwhile; // End of the loop. ?>
-			<a href="http://localhost:8888/metcon/filosofia/">
-	
-			<i class="fa fa-chevron-right">
-	
-			</i>
-			</a>
 		</section>
 				
 				
